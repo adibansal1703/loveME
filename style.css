@@ -52,6 +52,20 @@ transition: transform 0.3s ease;
 }
 @media (max-width:480px){
     .head{
+        font-size: 1.2em;
+    }
+    .gifs{
+       height: 20em;
+    }
+    .yes{
+        margin: 0em 0em 1.2em 1.2em;
+    }
+    .no{
+        margin: 0em 0em 1.2em 1.2em;
+    }
+}
+@media (max-width:768px){
+    .head{
         font-size: 1.5em;
     }
     .gifs{
@@ -62,19 +76,5 @@ transition: transform 0.3s ease;
     }
     .no{
         margin: 0em 0em 1.5em 1.5em;
-    }
-}
-@media (max-width:768px){
-    .head{
-        font-size: 1.8em;
-    }
-    .gifs{
-       height: 25em;
-    }
-    .yes{
-        margin: 0em 0em 2em 2em;
-    }
-    .no{
-        margin: 0em 0em 2em 2em;
     }
 }
